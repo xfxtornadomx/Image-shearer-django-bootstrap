@@ -1,0 +1,9 @@
+from django import forms
+
+
+class postForm(forms.Form):
+    image = forms.FileField()
+    text = forms.CharField(label='Description')
+    
+
+
